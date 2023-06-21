@@ -129,25 +129,9 @@ button:hover {
     background-color: #45a049;
 }
 
-#cart-items {
-    list-style-type: none;
-    padding: 0;
-}
-
-.checkout {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-#total-price {
-    font-weight: bold;
-}
-
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
