@@ -55,3 +55,13 @@ function clearCart() {
     cartItems = [];
     updateCartDisplay();
 }
+
+function downloadFile(url, filename) {
+  var anchorElement = document.createElement('a');
+  anchorElement.href = url;
+  anchorElement.download = filename;
+  anchorElement.style.display = 'none';
+  document.body.appendChild(anchorElement);
+  anchorElement.click();
+  document.body.removeChild(anchorElement);
+}
